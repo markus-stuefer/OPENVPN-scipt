@@ -23,3 +23,9 @@ Firewall-Konfiguration: Erlaubt den Datenverkehr für OpenVPN (Port 1194) und SS
 OpenVPN-Dienst: Startet und aktiviert den OpenVPN-Dienst, sodass er bei jedem Neustart des Systems automatisch startet.
 7. Client-Konfigurationsdatei erstellen
 Client-Konfiguration: Erzeugt eine .ovpn-Datei (client.ovpn), die alle notwendigen Zertifikate und Einstellungen für den Client enthält. Diese Datei wird vom VPN-Client zum Verbinden mit dem Server verwendet.
+Nutzung
+Speichern Sie das Skript als Datei, zum Beispiel vpn-setup.sh.
+Machen Sie das Skript ausführbar:
+chmod +x vpn-setup.sh
+Führen Sie das Skript mit Root-Berechtigungen aus:
+sudo ./vpn-setup.sh
